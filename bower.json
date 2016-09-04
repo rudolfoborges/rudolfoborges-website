@@ -1,0 +1,27 @@
+{
+  "name": "rudolfoborges-website",
+  "version": "1.0.0",
+  "description": "Website de Rudolfo Borges",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "Website",
+    "Rudolfo",
+    "Borges"
+  ],
+  "authors": [
+    "Rudolfo Borges"
+  ],
+  "license": "MIT",
+  "homepage": "http://rudolfoborges.com.br",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
