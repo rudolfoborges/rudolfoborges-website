@@ -1,0 +1,43 @@
+/*Created by Rudolfo Borges
+Created at 04/09/2016 */
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #4A4E4D;
+  background: #cdd2d0;
+  letter-spacing: 1px; }
+
+.container {
+  background: #fff;
+  margin-top: 100px;
+  padding: 20px;
+  box-shadow: 0 10px 0 10px #888888;
+  box-shadow: 0px 6px 5px 0px rgba(116, 116, 116, 0.2);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.header {
+  min-height: 250px;
+  width: 100%; }
+  .header .rb-photo {
+    width: 200px;
+    min-height: 200px;
+    background: url("../images/rudolfoborges.png") transparent no-repeat;
+    background-size: 200px;
+    margin: 0 auto;
+    margin-top: -120px; }
+  .header .text-header {
+    width: 100%;
+    min-height: 100px;
+    margin: 0 auto;
+    border-bottom: 5px double #dfdfdf; }
+    .header .text-header h1 {
+      font-size: 4em;
+      font-weight: 500;
+      margin: 0; }
+    .header .text-header h2 {
+      font-size: 2em;
+      font-weight: 200;
+      color: #F0563D;
+      margin: 0; }

@@ -1,0 +1,38 @@
+.header {
+  min-height: 250px;
+  width: 100%;
+
+  .rb-photo {
+    width: 200px;
+    min-height: 200px;
+    background: url('../images/rudolfoborges.png') transparent no-repeat;
+    background-size: 200px;
+    margin: 0 auto;
+    margin-top: -120px;
+  }
+
+  .text-header {
+    width: 100%;
+    min-height: 100px;
+    margin: 0 auto;
+    border-bottom: 5px double rgb(223, 223, 223);
+
+      h1 {
+        font-size: 4em;
+        font-weight: 500;
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 2em;
+        font-weight: 200;
+        color: #F0563D;
+        margin: 0;
+      }
+  }
+
+
+
+
+
+}
