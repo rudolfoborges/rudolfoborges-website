@@ -1,28 +1,18 @@
-body{
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  color: #4A4E4D;
-  background: rgb(205, 210, 208);
-  letter-spacing: 1px;
-}
+.content {
 
-.faixa {
-  width: 100%;
-  min-height: 200px;
-  background: #2F4254;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
+  .block {
+    width: 100%;
 
-.container {
-  background: #fff;
-  margin-top: 100px;
-  padding: 20px;
-  box-shadow: 0 10px 0 10px #888888;
-  box-shadow: 0px 6px 5px 0px rgba(116,116,116,0.2);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+    span.title {
+      font-size: 2em;
+      font-weight: 200;
+      display: inline-block;
+    }
+
+    p.info {
+      font-size: 1.5em;
+      font-weight: 200;
+    }
+
+  }
 }
