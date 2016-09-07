@@ -17,13 +17,63 @@
       font-weight: 200;
       margin-top: 10px;
 
-    
+
+
     }
 
+    ul.info-list {
+      list-style-type: circle;
 
+      li {
+        font-weight: 200;
+        margin-left: -10px;
+      }
+    }
   }
 
   .mt-30 {
     margin-top: 30px;
   }
+
+  div.jobs {
+    font-size: 1.5em;
+    font-weight: 200;
+
+    div.job {
+      span.job-name {
+        display: block;
+        font-weight: bold;
+      }
+
+      span.job-role {
+        display: block;
+      }
+
+      ul li {
+        font-size: 0.7em;
+      }
+    }
+  }
+
+  div.projects {
+    font-size: 1.5em;
+    font-weight: 200;
+
+    div.project {
+      span.project-name {
+        display: block;
+        font-weight: bold;
+      }
+
+      span.project-description {
+        display: block;
+      }
+      
+      ul li {
+        font-size: 0.7em;
+      }
+
+    }
+  }
+
 }

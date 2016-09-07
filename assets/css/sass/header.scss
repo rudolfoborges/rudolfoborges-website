@@ -1,5 +1,5 @@
 .header {
-  min-height: 330px;
+  min-height: 360px;
   width: 100%;
 
   .rb-photo {
@@ -29,6 +29,11 @@
         color: #2F4254;
         margin: 0;
       }
+  }
+
+  .devicons {
+    font-size: 1.2em;
+    margin-bottom: 20px;
   }
 
 }

@@ -46,7 +46,7 @@ ul li {
   margin-left: -35px; }
 
 .header {
-  min-height: 330px;
+  min-height: 360px;
   width: 100%; }
   .header .rb-photo {
     width: 200px;
@@ -69,6 +69,9 @@ ul li {
       font-weight: 200;
       color: #2F4254;
       margin: 0; }
+  .header .devicons {
+    font-size: 1.2em;
+    margin-bottom: 20px; }
 
 .content .block {
   width: 100%; }
@@ -81,6 +84,33 @@ ul li {
     font-size: 1.5em;
     font-weight: 200;
     margin-top: 10px; }
+  .content .block ul.info-list {
+    list-style-type: circle; }
+    .content .block ul.info-list li {
+      font-weight: 200;
+      margin-left: -10px; }
 
 .content .mt-30 {
   margin-top: 30px; }
+
+.content div.jobs {
+  font-size: 1.5em;
+  font-weight: 200; }
+  .content div.jobs div.job span.job-name {
+    display: block;
+    font-weight: bold; }
+  .content div.jobs div.job span.job-role {
+    display: block; }
+  .content div.jobs div.job ul li {
+    font-size: 0.7em; }
+
+.content div.projects {
+  font-size: 1.5em;
+  font-weight: 200; }
+  .content div.projects div.project span.project-name {
+    display: block;
+    font-weight: bold; }
+  .content div.projects div.project span.project-description {
+    display: block; }
+  .content div.projects div.project ul li {
+    font-size: 0.7em; }
