@@ -29,6 +29,7 @@
     "bootstrap": "~3.3.7",
     "font-awesome": "~4.6.3",
     "normalize-css": "~4.2.0",
-    "devicon": "*"
+    "devicon": "*",
+    "github-fork-ribbon-css": "~0.2.0"
   }
 }

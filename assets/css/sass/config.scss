@@ -1,16 +1,19 @@
+$blue-color: #2F4254;
+$gray-color: #f2f2f2;
+
 body{
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1em;
   color: #4A4E4D;
-  background: #f2f2f2;
+  background: $gray-color;
   letter-spacing: 1px;
 }
 
 .blue-line {
   width: 100%;
   min-height: 200px;
-  background: #2F4254;
+  background: $blue-color;
   position: absolute;
   top: 0;
   left: 0;
@@ -20,6 +23,7 @@ body{
 .container {
   background: #fff;
   margin-top: 100px;
+  margin-bottom: 100px;
   padding: 20px;
   box-shadow: 0 10px 0 10px #888888;
   box-shadow: 0px 6px 5px 0px rgba(116,116,116,0.2);
@@ -29,4 +33,24 @@ body{
 
 .row {
   margin: 0;
+}
+
+
+.github-fork-ribbon:before {
+  background: $gray-color;
+  width: 15.38em;
+  height: 2.5em;
+}
+
+.github-fork-ribbon:after {
+  color: $blue-color;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+ul li {
+  margin-left: -35px;
 }
