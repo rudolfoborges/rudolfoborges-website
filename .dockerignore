@@ -1,0 +1,9 @@
+node_modules
+.bowerrc
+.DS_Store
+.gitignore
+.git
+bower.json
+LICENSE
+package.json
+README.md
