@@ -1,4 +1,4 @@
-$blue-color: #2F4254;
+$blue-color: #5A5A5A;
 $gray-color: #f2f2f2;
 
 body{
@@ -6,7 +6,7 @@ body{
   font-weight: 400;
   font-size: 1em;
   color: #4A4E4D;
-  background: $gray-color;
+  background: $blue-color;
   letter-spacing: 1px;
 }
 
@@ -43,7 +43,7 @@ body{
 }
 
 .github-fork-ribbon:after {
-  color: $blue-color;
+  color: #4A4E4D;
 }
 
 ul {
